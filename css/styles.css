@@ -9,32 +9,132 @@ span {
 }
 body {
   font-family: Roboto, sans-serif;
+  color: #212121;
 }
-.navigation {
+li {
+  list-style-type: none;
+}
+a:hover {
+  color: #2196f3;
+}
+a:active {
+  color: brown;
+}
+button:hover{
+  background: #F5F4FA;
+border-radius: 4px;
+}
+button :active{
+  #F5F4FA;
+border-radius: 4px;
+}
+}
+a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-}
-a {
   text-decoration: none;
+  color: inherit;
 }
-h2 {
+h1 {
   font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.uno {
+  background-color: #2f303a;
+}
+button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.advantage {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #212121;
 }
-.text {
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+p {
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  color: #757575;
+}
+.timate {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.proffesion {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 18;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.web {
+  color: #2196f3;
+}
+.studio {
+  color: #ffffff;
+}
+.white {
+  color: #ffffff;
 }
