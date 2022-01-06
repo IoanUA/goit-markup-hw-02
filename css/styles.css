@@ -1,141 +1,163 @@
 /* Ctrl + / - запись комментария */
 
 /* Логотип */
+:root {
+  --blak-color: #212121;
+}
+:root {
+  --blu-color: #2196f3;
+}
+:root {
+  --grey-color: #757575;
+}
+:root {
+  --white-color: #ffffff;
+}
+:root {
+  --background-grey: #2f303a;
+}
+:root {
+  --background-filter: #f5f4fa;
+}
 span {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  color: var(--blak-color);
 }
-/* Шрифты */
+/* Шрифты на бади*/
 body {
   font-family: Roboto, sans-serif;
-  color: #212121;
+  color: var(--black-color);
 }
-/* Ссылки */
-a:hover {
-  color: #2196f3;
-}
-a:active {
-  color: brown;
-}
-a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
-  text-decoration: none;
-  color: inherit;
-}
+/* Кнопки навигации */
 li {
   list-style-type: none;
 }
-/* Кнопки */
-button:hover {
-  background: #2196f3;
-  border-radius: 4px;
+a {
+  text-decoration: none;
 }
-button:active {
-  background: #2196f3;
-  border-radius: 4px;
+.logo :hover {
+  color: var(--blu-color);
 }
-button {
-  width: 200px;
-  height: 50px;
-  background: #f5f4fa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+.logo :focus {
+  color: var(--blu-color);
 }
-.button {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
+.web {
+  color: var(--blu-color);
 }
-
+.navigation {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.navigation-text:hover {
+  color: var(--blu-color);
+}
+.navigation-text:focus {
+  color: var(--blu-color);
+}
+/* контакты в хедере */
+.contacts-h {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--grey-color);
+}
+.contacts-h:hover {
+  color: var(--blu-color);
+}
+.contacts-h:focus {
+  color: var(--blu-color);
+}
+/* Герой */
+.hero {
+  background-color: var(--background-grey);
+}
 h1 {
-  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
-.contact {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
+/* Кнопка */
+button {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: var(--blu-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
-.uno {
-  background-color: #2f303a;
+button {
+  cursor: pointer;
 }
-.advantage {
+.list {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: #212121;
+  text-transform: uppercase;
 }
+.list-type {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--grey-color);
+}
+/* инфо про роьоту компании */
 h2 {
-  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
-p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.position {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--grey-color);
+}
+footer {
+  background-color: var(--background-grey);
+}
+.web-blu {
+  color: var(--blu-color);
+}
+.studio-white {
+  color: var(--white-color);
+}
+.google-maps {
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--white-color);
 }
-.timate {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1, 16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.google-maps :hover {
+  color: var(--blu-color);
 }
-.proffesion {
-  font-style: normal;
-  font-weight: normal;
+.google-maps :focus {
+  color: var(--blu-color);
+}
+
+/* страница портфолио */
+.list-filter .filter {
+  color: var(--background-filter);
+}
+.job {
+  ont-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.job-title {
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
-}
-.address {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1, 71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.web {
-  color: #2196f3;
-}
-.studio {
-  color: #ffffff;
-}
-.white {
-  color: #ffffff;
 }
