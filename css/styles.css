@@ -147,9 +147,7 @@ footer {
 }
 
 /* страница портфолио */
-.list-filter .filter {
-  color: var(--background-filter);
-}
+
 .job {
   ont-weight: bold;
   font-size: 18px;
