@@ -2,21 +2,11 @@
 
 /* Логотип */
 :root {
-  --blak-color: #212121;
-}
-:root {
+  --blaсk-color: #212121;
   --blu-color: #2196f3;
-}
-:root {
   --grey-color: #757575;
-}
-:root {
   --white-color: #ffffff;
-}
-:root {
   --background-grey: #2f303a;
-}
-:root {
   --background-filter: #f5f4fa;
 }
 span {
@@ -24,7 +14,7 @@ span {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--blak-color);
+  color: var(--blaсk-color);
 }
 /* Шрифты на бади*/
 body {
@@ -70,13 +60,13 @@ button {
 }
 
 /* Кнопки навигации */
-.nav {
+.nav a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--blak-color);
+  color: var(--black-color);
 }
 .nav :hover,
 .nav :focus {
@@ -121,6 +111,7 @@ h1 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--grey-color);
 }
 h2 {
   font-style: normal;
@@ -145,6 +136,7 @@ h2 {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--grey-color);
 }
 footer {
   background-color: var(--background-grey);
@@ -155,7 +147,7 @@ footer {
 .studio-white {
   color: var(--white-color);
 }
-.address a {
+.address {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -163,14 +155,32 @@ footer {
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
-.address a:hover,
-.address a:focus {
+.address:hover,
+.address:focus {
+  color: var(--blu-color);
+}
+.con-foot {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.con-foot:hover,
+.con-foot:focus {
   color: var(--blu-color);
 }
 
 /* portfolio */
 
 .filter {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
   border-radius: 4px;
 }
 .filter {
